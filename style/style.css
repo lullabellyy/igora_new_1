@@ -775,7 +775,7 @@ color: var(--black50pr);
 }
 
 
-.house-button-prev img {
+.house-button-next img {
   transform: rotate(180deg);
 }
 
@@ -800,6 +800,7 @@ color: var(--black50pr);
   padding-bottom: 40px;
  }
  .hause__containers-2{
+   position: relative;
   padding-left: 20px;
   padding-right: 20px;
  }
