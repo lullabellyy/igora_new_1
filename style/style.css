@@ -750,13 +750,14 @@ color: var(--black50pr);
   position: relative;
 }
 
-.house-slider .swiper-button-next,
-.house-slider .swiper-button-prev {
-  color: #7a7a7a;
-  top: 34%;
-  transform: translateY(-50%);
-  z-index: 10;
-}
+
+
+
+
+
+
+
+
 
 .house-slider .swiper-button-prev {
   left: -8px;
@@ -765,6 +766,16 @@ color: var(--black50pr);
 .house-slider .swiper-button-next {
   right: -8px;
 }
+
+
+.house-button-prev img {
+  transform: rotate(180deg);
+}
+
+
+
+
+
 
 .swiper-button-disabled{
  opacity: 0.3;
