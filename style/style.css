@@ -738,13 +738,11 @@ color: var(--black50pr);
   position: absolute;
   top: 50%;
   left: 0;
-    height: 0;
   width: 100%;
   transform: translateY(-50%);
   display: flex;
   justify-content: space-between;
   z-index: 10;
-  pointer-events: none;
 }
 
 .errow__wrapper .swiper-button {
