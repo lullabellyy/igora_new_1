@@ -753,7 +753,14 @@ color: var(--black50pr);
 
 
 
+.errow__wrapper {
+  z-index: 20;
+  pointer-events: none;
+}
 
+.errow__wrapper .swiper-button {
+  pointer-events: all;
+}
 
 
 
