@@ -94,12 +94,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // --------- swiper house
 document.addEventListener('DOMContentLoaded', () => {
-	const swiper = new Swiper('.house-slider', {
+	const swiper = new Swiper(".house-slider", {
+  slidesPerView: 3,
+  spaceBetween: 20,
+  loop: true,
 
-	  navigation: {
-		 nextEl: '.house-button-next',
-		 prevEl: '.house-button-prev',
-	  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
 			//Включение/отключение
 			//Перетаскивание на ПК
 			simulateTouch: true,
