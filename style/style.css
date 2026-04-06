@@ -738,6 +738,7 @@ color: var(--black50pr);
   position: absolute;
   top: 50%;
   left: 0;
+    height: 0;
   width: 100%;
   transform: translateY(-50%);
   display: flex;
@@ -749,6 +750,25 @@ color: var(--black50pr);
 .errow__wrapper .swiper-button {
   pointer-events: all;
 }
+
+.house-button-prev,
+.house-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.house-button-prev {
+  left: -15px;
+}
+
+.house-button-next {
+  right: -15px;
+}
+
+
+
+
 
 
 
